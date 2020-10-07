@@ -1,0 +1,20 @@
+void sort(int ar[],n)
+{
+int min=arr[0];
+int pos;
+for(int i=0;i<n;i++)
+{
+  for(int j=i+1<n;j++)
+  {
+    if(arr[j]<min)
+   { arr[j]=min;
+      pos=j;
+   }
+  }
+  arr[pos]=arr[i];
+  arr[i]=min;
+}
+}
+ 
+  
+    
